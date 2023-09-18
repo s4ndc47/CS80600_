@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Assignment 1</title>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
+
+<body>
+    <h2>2019 Cell phones per 100 people</h2>
+
+</body>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Merriweather:wght@900&display=swap');
+</style>
+
+<script type="module">
+
+import define from "./index.js";
+import {Runtime, Library, Inspector} from "./runtime.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
+
+</script>

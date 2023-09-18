@@ -1,0 +1,14 @@
+{
+  "name": "@d3/bar-chart-transitions/2",
+  "main": "90c38a1f716830d0@321.js",
+  "version": "321.0.0",
+  "homepage": "https://observablehq.com/@d3/bar-chart-transitions/2",
+  "author": {
+    "name": "D3",
+    "url": "https://observablehq.com/@d3"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
